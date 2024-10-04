@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE_DEL_COMPONENTE_FORMATIVO'
+module.exports =
+  'Lineamientos institucionales y administración educativa en los procesos de formación virtual'

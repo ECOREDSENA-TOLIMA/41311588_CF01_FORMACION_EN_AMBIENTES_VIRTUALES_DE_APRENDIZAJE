@@ -1,7 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
+    componenteFormativo:
+      'Lineamientos institucionales y administración educativa en los procesos de formación virtual',
+    descripcionCurso:
+      'Los lineamientos institucionales son esenciales para asegurar que una organización funcione de manera efectiva, cumpliendo sus objetivos y adaptándose a los desafíos del entorno. El SENA cumple este funcionar educativo, al formar aprendices con conocimientos en su quehacer laboral y personal.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +33,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Gestión de la formación profesional',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Lineamientos SENA',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Ejecución de la formación profesional',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Aplicativo CompromISO SENA',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +57,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Administración educativa',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Procedimientos administrativos educativos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'SOFIA Plus',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'LMS',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
