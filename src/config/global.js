@@ -125,28 +125,99 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: '1. Gestión de la formación profesional',
+      referencia: 'Portal SENA. (s.f.). Glosario.',
+      tipo: 'Página web',
+      link:
+        'https://www.sena.edu.co/es-co/formacion/Paginas/Estudie-en-el-SENA.aspx',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Gestión de la formación profesional',
+      referencia: 'Portal SENA. (s.f.). ¿Quiere estudiar en el SENA?',
+      tipo: 'Página web',
+      link: 'https://www.sena.edu.co/es-co/ciudadano/Paginas/glosario.aspx',
+    },
+    {
+      tema: '1.3.	Aplicativo CompromISO SENA',
+      referencia: 'CompromISO SENA. (2024). SIGA 2024.',
+      tipo: 'Página web',
+      link: 'https://compromiso.sena.edu.co/index.php?text=inicio&id=1',
+    },
+    {
+      tema: '2.2 SOFIA Plus',
+      referencia: 'SOFIA Plus. (2014). Ayudas y manuales.',
+      tipo: 'Página web',
+      link: 'https://portal.senaSOFIA Plus.edu.co/index.php/ayudas',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Aprendizaje colaborativo',
+      significado:
+        'conjunto de métodos que se aplican en grupos pequeños de entrenamiento y desarrollo de habilidades mixtas, donde cada miembro del grupo es responsable, tanto de su aprendizaje, como de los demás miembros del grupo.',
+    },
+    {
+      termino: 'Aprendizaje en el SENA',
+      significado:
+        'indica que es un proceso mediante el cual el aprendiz comprende, asimila, incorpora y aplica conocimientos, habilidades, destrezas y actitudes que lo hacen competente para actuar técnica, metodológica, participativa y socialmente en el trabajo.',
+    },
+    {
+      termino: 'Aprendizaje virtual',
+      significado:
+        'proceso de aprendizaje soportado sobre las Tecnologías de la Información y la Comunicación TIC, requiriendo esfuerzos de autoaprendizaje y autoevaluación. El aprendizaje virtual no se limita a la adquisición de competencias en el uso de las TIC, abarca también el uso de diversos formatos y métodos digitales: programas informáticos, internet, aprendizaje en línea y otros medios electrónicos e interactivos.',
+    },
+    {
+      termino: 'Autoaprendizaje',
+      significado:
+        'sinónimo de autoformación, autoinstrucción o autoestudio. Para algunos sicólogos, significa que el aprendiz se hace responsable de su proceso de aprendizaje, aprende por sí y para sí mismo y no para otro.',
+    },
+    {
+      termino: 'Diseño Curricular',
+      significado:
+        'actividad que se realiza para organizar los programas de formación, definiendo las competencias asociadas y los resultados de aprendizaje para cada competencia, con los cuales se dará respuesta a las demandas y necesidades de formación.',
+    },
+    {
+      termino: 'Formación Virtual',
+      significado:
+        'la formación virtual o e-learning es el proceso formativo de enseñanza-aprendizaje y evaluación realizado a través de internet y de tecnologías multimediales que se encuentran integradas en un Ambiente Virtual de Aprendizaje que facilita el trabajo colaborativo y la construcción de conocimiento, la comunicación entre aprendices e instructor y aprendices, por medio de herramientas de comunicación asíncrona y sincrónica, la flexibilidad de acceder desde donde quiera y cuando quiera.',
+    },
+    {
+      termino: 'Instructor-tutor',
+      significado:
+        'sujeto que participa en el proceso de enseñanza-aprendizaje, quien asume el rol de facilitador, orientador y apoyo, quien retroalimenta y evalúa al aprendiz durante su proceso formativo, haciendo uso de distintas técnicas didácticas activas, bajo la estrategia de aprendizaje por proyectos, la cual le permite contribuir con su propio aprendizaje.',
+    },
+    {
+      termino: 'LMS',
+      significado:
+        'sistemas de administración de aprendizaje, por sus siglas en inglés LMS, utilizados para gestionar, soportar y realizar seguimiento a los procesos educativos.',
+    },
+    {
+      termino: 'Resultado de aprendizaje',
+      significado:
+        'enunciados que están asociados a las actividades de aprendizaje y evaluación, y que orientan al instructor-tutor y al aprendiz en la verificación de los procesos cognitivos, motores, valorativos, actitudinales y de apropiación de los conocimientos técnicos y tecnológicos requeridos en el aprendizaje.',
+    },
+    {
+      termino: 'SENA',
+      significado:
+        'el Servicio Nacional de Aprendizaje, SENA, es la institución pública colombiana encargada de la función que le corresponde al Estado de invertir en el desarrollo social y técnico de los colombianos, ofreciendo y ejecutando la formación profesional gratuita, para la incorporación y el desarrollo de las personas en actividades productivas, que contribuyan al desarrollo social, económico y tecnológico del país. El SENA es la principal institución del Sistema Nacional de Formación para el Trabajo.',
+    },
+    {
+      termino: 'SOFIA Plus',
+      significado:
+        'la sigla significa Sistema Optimizado para la Formación y el Aprendizaje Activo, el aplicativo SOFIA Plus, opera como la principal herramienta para facilitar la gestión de los nuevos procesos formativos en el SENA. La operación del sistema requiere la interacción de tres componentes importantes: el entendimiento y adopción de los nuevos procesos de gestión del aprendizaje, la prueba y uso del aplicativo diseñado para la gestión de estos nuevos procesos, y la migración de información útil del actual aplicativo de gestión académica de centros hacia el nuevo aplicativo que soportará todos los procesos.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Ángel, W. I. (2017). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Servicio Nacional de Aprendizaje SENA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Meza, J. (2012). Modelo pedagógico para proyectos de formación virtual.',
+      link:
+        'http://www.facico-uaemex.mx/diplomado/2.3%20BB%20MEZA%20JOHANA.pdf',
     },
   ],
   creditos: [

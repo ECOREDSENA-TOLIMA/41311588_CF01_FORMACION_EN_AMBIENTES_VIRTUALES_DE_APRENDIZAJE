@@ -179,8 +179,8 @@
 
     p.mb-5(data-aos="fade-left") A continuación, podrá ver el mapa de actividades del rol de instructor en SOFIA Plus, las cuales necesitará dependiendo de la modalidad y momento de la formación que esté desarrollando.
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
+    .row.justify-content-center(data-aos="flip-up")
+      .col-lg-10.col-12.desktop
         ImagenInfograficaB.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
@@ -212,44 +212,206 @@
             li Registrar Actividad Adicional del Instructor.
             li Registrar Inasistencia del Aprendiz.
 
-          div(x="69%" y="14%" tooltip="SGS" numero="+")
-            h5 SGS
-            p GESTIONAR SGS:
-            li Consultar Proyectos de Aprendizaje.
-            li Consultar Ruta de Aprendizaje.
+          div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
+            h5 Gestión de tiempos
+            p GESTIONAR TIEMPOS DEL INSTRUCTOR:
+            li Consultar inasistencia del aprendiz.
+            li Consultar Registro de Tiempo.
+            li Gestionar Actividades Adicionales del Instructor.
+            li Registrar Actividad Adicional del Instructor.
+            li Registrar Inasistencia del Aprendiz.
+
+          div(x="65%" y="91%" tooltip="LMS" numero="+")
+            h5 LMS
+            p LMS:
+            li Consultar Victorias de Capacitación.
+
+          div(x="92%" y="84%" tooltip="Matrícula" numero="+")
+            h5 Matrícula
+            p EVENTOS DE DIVULGACIÓN TECNOLÓGICA:
+            li Generar listado de matriculados.
 
           div(x="69%" y="37%" tooltip="Reportes" numero="+")
-            h5 Reportes
+            h5.mb-4 Reportes
             p REPORTES VIRTUAL:
-            li Trazabilidad de estados Aprendices.
+            li.mb-4 Trazabilidad de estados Aprendices.
             p REPORTES VIRTUAL POR CENTRO:
             li Consultar Fichas Instructor.
             li Estados de Aprendices.
-            li Reporte de Inscritos.
+            li.mb-4 Reporte de Inscritos.
             p REPORTES POR CENTRO DE FORMACIÓN:
             li Administración Educativa Centro.
             li Diseño Curricular Centro.
             li Planeación por Centro.
 
           div(x="69%" y="60%" tooltip="Ejecución de la Formación" numero="+")
-            h5 Ejecución de la Formación
+            h5.mb-4 Ejecución de la Formación
             p ADMINISTRACIÓN RUTA DE APRENDIZAJE:
             li Consulta Ruta de Aprendizaje.
             li Generar Excel de Planeación Pedagógico.
             li Generar PDF de Proyecto Formativo.
             li Gestionar la Ruta de Aprendizaje.
             li Reportes.
-            li Solicitud de Segunda Evaluación.
+            li.mb-4 Solicitud de Segunda Evaluación.
             p COMPLEMENTARIA VIRTUAL:
             li Consultar Novedad Cancelamiento.
             li Crear Novedad Cancelamiento.
-            li Enviar Correo Electrónico a Aprendices.
+            li.mb-4 Enviar Correo Electrónico a Aprendices.
             p EVENTOS DE DIVULGACIÓN TECNOLÓGICA
             li Gestionar Asistencias.
+
+          div(x="69%" y="14%" tooltip="SGS" numero="+")
+            h5 SGS
+            p GESTIONAR SGS:
+            li Consultar Proyectos de Aprendizaje.
+            li Consultar Ruta de Aprendizaje.
+
+    .col.movil
+      .row.justify-content-center
+        .col-lg-6
+          a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_ Mapa rol instructor.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p Anexo. Mapa rol instructor.
+
+    p.mb-5(data-aos="fade-left") Dentro de este mapa del rol de instructor, las actividades que realiza el instructor virtual durante su proceso son: ejecución de la formación, gestión de ambientes y LMS.
+
+    .titulo.mb-5(data-aos="flip-up")
+      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
+      h5.mb-0 Proceso de instructor en SOFIA Plus
+
+    p.mb-5(data-aos="fade-left") A través del siguiente recurso podrá entender el ciclo de ejecución de una ficha. 
+
+    .tarjeta.tarjeta--BG06.px-4.px-md-5.pt-4.mb-5.p-4(data-aos="flip-up")
+      .tarjeta.tarjeta--blanca.p-4
+        PasosB.color-acento-botones.p-4
+          .row.justify-content-center(titulo="Paso 1")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Identificar cursos asignados
+              p.mb-0 El instructor recibirá un mensaje a través del correo electrónico registrado en SOFIA PLUS, donde se le informa el nombre del curso virtual, número de ficha, la fecha de inicio y finalización.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="Paso 2")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Cambiar curso a ejecución
+              p.mb-0 Para que los participantes o aprendices del curso puedan iniciar la formación, el instructor SENA deberá cambiar en la ficha el estado de los aprendices de "En tránsito" a "Formación", el instructor deberá asociar a los aprendices a la ruta de aprendizaje establecida para la ficha virtual.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="Paso 3")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Verificar aprendices en formación
+              p.mb-0 El instructor debe verificar que todos los aprendices del curso hayan cambiado de estado en el sistema, de "En espera" a "Formación", una vez se haya asociado a la ruta de aprendizaje. Además, debe verificar que el número de participantes en formación coincida con el número de matriculados.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="Paso 4")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Correo inicial a los aprendices
+              p.mb-0 El instructor debe informar a través de SOFIA Plus, mediante un correo inicial, el nombre del programa, número de ficha, fecha de inicio, fecha de finalización y nombre del instructor. Además, debe especificar que el aprendiz tendrá acceso al curso después de 24 horas a través de SOFIA Plus en el paquete funcional del LMS.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="Paso 5")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Ejecutar la formación virtual
+              p.mb-0 Una vez los cursos se encuentren en estado de ejecución, el instructor debe realizar todo el proceso de desarrollo de la formación virtual, de acuerdo con los lineamientos institucionales vigentes a través del LMS correspondiente.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="Paso 6")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Evaluar ruta de aprendizaje
+              p.mb-0 Una vez finalice el proceso formativo, el instructor debe realizar el registro de los juicios de evaluación de cada uno de los resultados de aprendizaje, a través del LMS o directamente desde SOFIA Plus, para cada uno de los aprendices del curso.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="Paso 7")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Registrar novedades
+              p.mb-0 Una vez aplicado los juicios de evaluación de todos los aprendices del curso y sus respectivos resultados de aprendizaje, el instructor debe establecer las novedades de la formación de acuerdo con los lineamientos institucionales.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="Paso 8")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Reportes de recurso
+              p.mb-0 El instructor debe descargar del reporte de juicios de evaluación, obtenido de SOFIA Plus, las estadísticas del curso y copia del libro de calificaciones obtenidas desde el LMS, de acuerdo con los lineamientos institucionales vigentes.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen decorativa')
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 LMS
+
+    p(data-aos="fade-left") El SENA cuenta con un segundo sistema de gestión para el aprendizaje que se basa en un LMS, una abreviatura que en inglés significa <i>«Learning Management System»</i>. Traducido al español, un sistema de administración de aprendizaje. En la formación virtual, la plataforma LMS es la que nos permite crear el aula virtual o lo que comúnmente llamamos Ambiente Virtual de Aprendizaje, en el cual se realiza toda la mediación del proceso formativo entre los instructores y aprendices SENA. El equipo integrante del LMS SENA cuenta con <b>administradores de sistema, coordinadores académicos, equipo de producción, instructores y los aprendices</b>; cada uno de ellos juega un papel importante para el desarrollo del proceso formativo.
+
+    .row.justify-content-center(data-aos="flip-up")
+      .col-lg-10.col-12
+        .cajon.cajon2.color-primario.p-4.mb-4
+          p Para que un LMS sea exitoso, el equipo de trabajo responsable debe interactuar constantemente de manera coordinada. Y los roles involucrados son:
+
+    .row.justify-content-center.mb-5
+      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-5
+              img(src='@/assets/curso/temas/tema2/img14.svg' alt='AvatarTop')
+          h4.text-center Instructores
+          p Son los tecnólogos o profesionales de las diferentes áreas, encargados de impartir la formación a través del LMS, de acuerdo con los diseños curriculares de los diferentes programas de formación.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-5
+              img(src='@/assets/curso/temas/tema2/img15.svg' alt='AvatarTop')
+          h4.text-center Coordinadores académicos
+          p Equipo de trabajo encargados de la planeación de la oferta académica en cada una de las diferentes modalidades de formación, así como el seguimiento académico a los instructores y aprendices según los lineamientos institucionales vigentes.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-5
+              img(src='@/assets/curso/temas/tema2/img16.svg' alt='AvatarTop')
+          h4.text-center Administradores de sistema
+          p Equipo de trabajo encargado de administrar, acompañar, mantener y estabilizar cada uno de los sistemas de gestión con los que cuenta el SENA (SOFIA PLUS - LMS).
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-5
+              img(src='@/assets/curso/temas/tema2/img17.svg' alt='AvatarTop')
+          h4.text-center Equipos de producción
+          p Equipo conformado por expertos temáticos, asesores pedagógicos, diseñadores y desarrolladores, con el fin de crear, diseñar y programar los contenidos que conformarán cada uno de los diferentes cursos de la oferta virtual del SENA.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-5
+              img(src='@/assets/curso/temas/tema2/img18.svg' alt='AvatarTop')
+          h4.text-center Los aprendices
+          p Es toda persona que recibe formación en la entidad. En el SENA se le reconoce con el perfil de libre pensador, con capacidad crítica, solidario, emprendedor creativo y líder.
+    
+    p.mb-5(data-aos="fade-left") El instructor SENA juega uno de los papeles más importantes dentro de esta comunidad. Es la persona que actúa durante todo el proceso formativo, interactuando constantemente con el aprendiz. El LMS es el canal de conexión y comunicación entre instructores y aprendices, mediante la publicación de actividades, recursos educativos digitales y herramientas de comunicación sincrónicas o asincrónicas que favorecen el trabajo colaborativo, siempre en cumplimiento de altos estándares de calidad y los lineamientos institucionales vigentes.
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-lg-10.col-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2.
+          span <i>Procedimiento instructor - aprendiz.</i>
+      .row.justify-content-center
+        .col-lg-10.col-md-12.col-12
+          figure.desktop
+            img(src='@/assets/curso/temas/tema2/img19.svg', alt='La figura 2, ejemplifica un proceso que se da en una formación virtual, entre el instructor y el aprendiz.')
+          figure.movil
+            img(src='@/assets/curso/temas/tema2/img20.svg', alt='La figura 2, ejemplifica un proceso que se da en una formación virtual, entre el instructor y el aprendiz.')
 
 </template>
 
