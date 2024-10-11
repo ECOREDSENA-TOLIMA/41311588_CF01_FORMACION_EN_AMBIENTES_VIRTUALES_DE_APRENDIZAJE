@@ -188,43 +188,41 @@
 
           div(x="30%" y="14%" tooltip="Diseño Curricular" numero="+")
             h5 Diseño Curricular
-            p Genera PDF Diseño Titulada Complementaria NO a la medida.
+            p Genera PDF diseño titulada complementaria NO a la medida.
 
           div(x="30%" y="36%" tooltip="Planeación de la Formación" numero="+")
             h5 Planeación de la Formación
             p COMPLEMENTARIA VIRTUAL: 
-            p administrar Fichas Virtuales Centro.
+            p Administrar fichas virtuales centro.
 
           div(x="30%" y="60%" tooltip="Gestión de Ambientes" numero="+")
             h5 Gestión de Ambientes
-            p GESTIÓN AMBIENTES:
-            li Consultar Fichas Instructor.
-            li Diagramar Horario Instructor.
-            li Reporte de Instructores por Ficha.
-            li Solicitar Eventos.
+            li Consultar fichas instructor.
+            li Diagramar horario instructor.
+            li Reporte de instructores por ficha.
+            li Solicitar eventos.
 
           div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
             h5 Gestión de tiempos
             p GESTIONAR TIEMPOS DEL INSTRUCTOR:
             li Consultar inasistencia del aprendiz.
-            li Consultar Registro de Tiempo.
-            li Gestionar Actividades Adicionales del Instructor.
-            li Registrar Actividad Adicional del Instructor.
+            li Consultar registro de tiempo.
+            li Gestionar actividades adicionales del instructor.
+            li Registrar actividad adicional del instructor.
             li Registrar Inasistencia del Aprendiz.
 
-          div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
-            h5 Gestión de tiempos
-            p GESTIONAR TIEMPOS DEL INSTRUCTOR:
-            li Consultar inasistencia del aprendiz.
-            li Consultar Registro de Tiempo.
-            li Gestionar Actividades Adicionales del Instructor.
-            li Registrar Actividad Adicional del Instructor.
-            li Registrar Inasistencia del Aprendiz.
+          //- div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
+          //-   h5 Gestión de tiempos
+          //-   p GESTIONAR TIEMPOS DEL INSTRUCTOR:
+          //-   li Consultar inasistencia del aprendiz.
+          //-   li Consultar Registro de Tiempo.
+          //-   li Gestionar Actividades Adicionales del Instructor.
+          //-   li Registrar Actividad Adicional del Instructor.
+          //-   li Registrar Inasistencia del Aprendiz.
 
           div(x="65%" y="91%" tooltip="LMS" numero="+")
             h5 LMS
-            p LMS:
-            li Consultar Victorias de Capacitación.
+            li Consultar victorias de capacitación.
 
           div(x="92%" y="84%" tooltip="Matrícula" numero="+")
             h5 Matrícula
@@ -236,35 +234,35 @@
             p REPORTES VIRTUAL:
             li.mb-4 Trazabilidad de estados Aprendices.
             p REPORTES VIRTUAL POR CENTRO:
-            li Consultar Fichas Instructor.
-            li Estados de Aprendices.
-            li.mb-4 Reporte de Inscritos.
+            li Consultar fichas instructor.
+            li Estados de aprendices.
+            li.mb-4 Reporte de inscritos.
             p REPORTES POR CENTRO DE FORMACIÓN:
-            li Administración Educativa Centro.
-            li Diseño Curricular Centro.
-            li Planeación por Centro.
+            li Administración educativa centro.
+            li Diseño curricular centro.
+            li Planeación por centro.
 
           div(x="69%" y="60%" tooltip="Ejecución de la Formación" numero="+")
             h5.mb-4 Ejecución de la Formación
             p ADMINISTRACIÓN RUTA DE APRENDIZAJE:
-            li Consulta Ruta de Aprendizaje.
-            li Generar Excel de Planeación Pedagógico.
-            li Generar PDF de Proyecto Formativo.
-            li Gestionar la Ruta de Aprendizaje.
+            li Consulta ruta de aprendizaje.
+            li Generar excel de planeación pedagógico.
+            li Generar PDF de proyecto formativo.
+            li Gestionar la ruta de aprendizaje.
             li Reportes.
-            li.mb-4 Solicitud de Segunda Evaluación.
+            li.mb-4 Solicitud de segunda evaluación.
             p COMPLEMENTARIA VIRTUAL:
-            li Consultar Novedad Cancelamiento.
-            li Crear Novedad Cancelamiento.
-            li.mb-4 Enviar Correo Electrónico a Aprendices.
+            li Consultar novedad cancelamiento.
+            li Crear novedad cancelamiento.
+            li.mb-4 Enviar correo electrónico a aprendices.
             p EVENTOS DE DIVULGACIÓN TECNOLÓGICA
-            li Gestionar Asistencias.
+            li Gestionar asistencias.
 
           div(x="69%" y="14%" tooltip="SGS" numero="+")
             h5 SGS
             p GESTIONAR SGS:
-            li Consultar Proyectos de Aprendizaje.
-            li Consultar Ruta de Aprendizaje.
+            li Consultar proyectos de aprendizaje.
+            li Consultar ruta de aprendizaje.
 
     .col.movil
       .row.justify-content-center
@@ -289,7 +287,7 @@
           .row.justify-content-center(titulo="Paso 1")
             .col-lg-6.order-lg-1.order-2
               h5.mb-4 Identificar cursos asignados
-              p.mb-0 El instructor recibirá un mensaje a través del correo electrónico registrado en SOFIA PLUS, donde se le informa el nombre del curso virtual, número de ficha, la fecha de inicio y finalización.
+              p.mb-0 El instructor recibirá un mensaje a través del correo electrónico registrado en SOFIA Plus, donde se le informa el nombre del curso virtual, número de ficha, la fecha de inicio y finalización.
 
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
@@ -383,7 +381,7 @@
             .col-5
               img(src='@/assets/curso/temas/tema2/img16.svg' alt='AvatarTop')
           h4.text-center Administradores de sistema
-          p Equipo de trabajo encargado de administrar, acompañar, mantener y estabilizar cada uno de los sistemas de gestión con los que cuenta el SENA (SOFIA PLUS - LMS).
+          p Equipo de trabajo encargado de administrar, acompañar, mantener y estabilizar cada uno de los sistemas de gestión con los que cuenta el SENA (SOFIA Plus - LMS).
 
         .tarjeta.tarjeta--BG07.p-4
           .row.justify-content-center.mb-3
@@ -396,10 +394,8 @@
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/tema2/img18.svg' alt='AvatarTop')
-          h4.text-center Los aprendices
-          p Es toda persona que recibe formación en la entidad. En el SENA se le reconoce con el perfil de libre pensador, con capacidad crítica, solidario, emprendedor creativo y líder.
-    
-    p.mb-5(data-aos="fade-left") El instructor SENA juega uno de los papeles más importantes dentro de esta comunidad. Es la persona que actúa durante todo el proceso formativo, interactuando constantemente con el aprendiz. El LMS es el canal de conexión y comunicación entre instructores y aprendices, mediante la publicación de actividades, recursos educativos digitales y herramientas de comunicación sincrónicas o asincrónicas que favorecen el trabajo colaborativo, siempre en cumplimiento de altos estándares de calidad y los lineamientos institucionales vigentes.
+          h4.text-center Aprendices
+          p Son todas las personas que reciben formación en la entidad. En el SENA, se les reconoce como libres pensadores, con capacidad crítica. solidarios, emprendedores creativos y líedres.
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
@@ -413,6 +409,10 @@
           figure.movil
             img(src='@/assets/curso/temas/tema2/img20.svg', alt='La figura 2, ejemplifica un proceso que se da en una formación virtual, entre el instructor y el aprendiz.')
 
+    
+    p.mb-5(data-aos="fade-left") El instructor SENA juega uno de los papeles más importantes dentro de esta comunidad. Es la persona que actúa durante todo el proceso formativo, interactuando constantemente con el aprendiz. El LMS es el canal de conexión y comunicación entre instructores y aprendices, mediante la publicación de actividades, recursos educativos digitales y herramientas de comunicación sincrónicas o asincrónicas que favorecen el trabajo colaborativo, siempre en cumplimiento de altos estándares de calidad y los lineamientos institucionales vigentes.
+
+    
 </template>
 
 <script>

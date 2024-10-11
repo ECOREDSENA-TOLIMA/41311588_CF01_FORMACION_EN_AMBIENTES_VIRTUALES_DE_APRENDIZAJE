@@ -129,7 +129,7 @@ export default {
         {
           id: 6,
           texto:
-            '<b>ES uno de los roles principales asociados a SofiaPlus:</b>',
+            '<b>Es uno de los roles principales asociados a SOFIA Plus:</b>',
           imagen: require('@/assets/componentes/pregunta_2.png'),
           barajarRespuestas: false,
           opciones: [
