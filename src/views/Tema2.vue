@@ -209,7 +209,7 @@
             li Consultar registro de tiempo.
             li Gestionar actividades adicionales del instructor.
             li Registrar actividad adicional del instructor.
-            li Registrar Inasistencia del Aprendiz.
+            li Registrar inasistencia del aprendiz.
 
           //- div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
           //-   h5 Gestión de tiempos
