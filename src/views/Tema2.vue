@@ -358,7 +358,7 @@
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-10.col-12
         .cajon.cajon2.color-primario.p-4.mb-4
-          p Para que un LMS sea exitoso, el equipo de trabajo responsable debe interactuar constantemente de manera coordinada. Y los roles involucrados son:
+          p Para que un LMS sea exitoso, el equipo de trabajo responsable debe interactuar constantemente de manera coordinada. los roles involucrados son:
 
     .row.justify-content-center.mb-5
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
@@ -395,7 +395,7 @@
             .col-5
               img(src='@/assets/curso/temas/tema2/img18.svg' alt='AvatarTop')
           h4.text-center Aprendices
-          p Son todas las personas que reciben formación en la entidad. En el SENA, se les reconoce como libres pensadores, con capacidad crítica. solidarios, emprendedores creativos y líedres.
+          p Son todas las personas que reciben formación en la entidad. En el SENA, se les reconoce como libres pensadores, con capacidad crítica, solidarios, emprendedores, creativos y líderes.
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12

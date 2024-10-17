@@ -226,7 +226,7 @@ export default {
         },
         {
           id: 10,
-          texto: '<b>El Aula virtual es conocida también como:</b>',
+          texto: '<b>El aula virtual es conocida también como:</b>',
           imagen: require('@/assets/componentes/pregunta_2.png'),
           barajarRespuestas: false,
           opciones: [

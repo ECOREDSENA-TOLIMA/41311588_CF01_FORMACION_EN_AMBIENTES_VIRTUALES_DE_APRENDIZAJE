@@ -147,7 +147,7 @@ export default {
       tema: '2.2 SOFIA Plus',
       referencia: 'SOFIA Plus. (2014). Ayudas y manuales.',
       tipo: 'Página web',
-      link: 'https://portal.senaSOFIA Plus.edu.co/index.php/ayudas',
+      link: 'https://portal.senaSOFIAPlus.edu.co/index.php/ayudas',
     },
   ],
   glosario: [
@@ -164,7 +164,7 @@ export default {
     {
       termino: 'Aprendizaje virtual',
       significado:
-        'proceso de aprendizaje soportado sobre las Tecnologías de la Información y la Comunicación TIC, requiriendo esfuerzos de autoaprendizaje y autoevaluación. El aprendizaje virtual no se limita a la adquisición de competencias en el uso de las TIC, abarca también el uso de diversos formatos y métodos digitales: programas informáticos, internet, aprendizaje en línea y otros medios electrónicos e interactivos.',
+        'proceso de aprendizaje soportado sobre las Tecnologías de la Información y la Comunicación (TIC), requiriendo esfuerzos de autoaprendizaje y autoevaluación. El aprendizaje virtual no se limita a la adquisición de competencias en el uso de las TIC, abarca también el uso de diversos formatos y métodos digitales: programas informáticos, internet, aprendizaje en línea y otros medios electrónicos e interactivos.',
     },
     {
       termino: 'Autoaprendizaje',
@@ -172,14 +172,14 @@ export default {
         'sinónimo de autoformación, autoinstrucción o autoestudio. Para algunos sicólogos, significa que el aprendiz se hace responsable de su proceso de aprendizaje, aprende por sí y para sí mismo y no para otro.',
     },
     {
-      termino: 'Diseño Curricular',
+      termino: 'Diseño curricular',
       significado:
         'actividad que se realiza para organizar los programas de formación, definiendo las competencias asociadas y los resultados de aprendizaje para cada competencia, con los cuales se dará respuesta a las demandas y necesidades de formación.',
     },
     {
-      termino: 'Formación Virtual',
+      termino: 'Formación virtual',
       significado:
-        'la formación virtual o e-learning es el proceso formativo de enseñanza-aprendizaje y evaluación realizado a través de internet y de tecnologías multimediales que se encuentran integradas en un Ambiente Virtual de Aprendizaje que facilita el trabajo colaborativo y la construcción de conocimiento, la comunicación entre aprendices e instructor y aprendices, por medio de herramientas de comunicación asíncrona y sincrónica, la flexibilidad de acceder desde donde quiera y cuando quiera.',
+        'la formación virtual o <i>e-learning</i> es el proceso formativo de enseñanza-aprendizaje y evaluación realizado a través de internet y de tecnologías multimediales que se encuentran integradas en un Ambiente Virtual de Aprendizaje que facilita el trabajo colaborativo y la construcción de conocimiento, la comunicación entre aprendices e instructor y aprendices, por medio de herramientas de comunicación asíncrona y sincrónica, la flexibilidad de acceder desde donde quiera y cuando quiera.',
     },
     {
       termino: 'Instructor-tutor',
