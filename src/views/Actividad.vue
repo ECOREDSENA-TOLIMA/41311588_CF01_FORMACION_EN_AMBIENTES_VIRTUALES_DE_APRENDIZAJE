@@ -141,11 +141,117 @@ export default {
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+        {
+          id: 7,
+          texto:
+            '<b>Las siglas FPI dentro del funcionamiento SENA hacen referencia a:</b>',
+          imagen: require('@/assets/componentes/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Formadores Integrales.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Funcionamiento Público Instructor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Instructores de Formación Integral.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Formación Profesional Integral.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Esto representan las siglas alusivas a la Formación Profesional Integral.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '<b>No es un sistema de información que utilizado en el desarrollo de la formación del SENA:</b>',
+          imagen: require('@/assets/componentes/pregunta_4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Drive.', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'SOFIA Plus.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'CompromISO.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'LMS.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Buen trabajo! Este no es un sistema de información utilizado en la entidad.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '<b>Los Resultados de aprendizaje son enunciados que están asociados a:</b>',
+          imagen: require('@/assets/componentes/pregunta_1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Aprendizaje colaborativo.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Evidencias.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Centro de calificaciones.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Actividades de aprendizaje.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Los Resultados de aprendizaje se asocian a las Actividades de aprendizaje y evaluación.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto: '<b>El Aula virtual es conocida también como:</b>',
+          imagen: require('@/assets/componentes/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Entrega de evidencias.', esCorrecta: false },
+            { id: 'b', texto: 'Espacios formativos.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Ambiente Virtual de Aprendizaje.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sistema de descargas de certificaciones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Excelente! Tiene claro lo que es un AVA.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
       ],
       mensaje_final_aprobado:
-        '¡Muy bien! Este es uno de los roles principales de SofiaPlus, junto el del instructor, aprendiz y funcionario.',
+        '¡Felicitaciones! Ha superado la actividad, demostrando que posee conocimientos sólidos sobre la temática tratada en el componente formativo.',
       mensaje_final_reprobado:
-        'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        'No ha superado la actividad. Se recomienda revisar el componente formativo e intentarlo nuevamente.',
     },
   }),
   computed: {},
