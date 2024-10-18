@@ -40,7 +40,7 @@
                 img(src='@/assets/curso/temas/tema2/img6.svg', alt='Imagen decorativa')
 
           h3.text-center Planeación
-          ol.lista-ol
+          ol.lista-ol(style="list-style-position: inside;")
             li.mb-0 
               span.text-bold a. 
               | Diseño curricular.
@@ -59,7 +59,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img6.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema2/img6.1.svg', alt='Imagen decorativa')
 
           h3.text-center Ingreso
           ol.lista-ol
@@ -84,7 +84,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img6.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema2/img6.2.svg', alt='Imagen decorativa')
 
           h3.text-center Formación
           ol.lista-ol
@@ -109,7 +109,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img6.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema2/img6.3.svg', alt='Imagen decorativa')
 
           h3.text-center Apoyo
           ol.lista-ol
@@ -179,99 +179,182 @@
 
     p.mb-5(data-aos="fade-left") A continuación, podrá ver el mapa de actividades del rol de instructor en SOFIA Plus, las cuales necesitará dependiendo de la modalidad y momento de la formación que esté desarrollando.
 
+
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-10.col-12.desktop
-        ImagenInfograficaB.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img12.svg', alt='Imagen decorativa')
 
-          div(x="30%" y="14%" tooltip="Diseño Curricular" numero="+")
-            h5 Diseño Curricular
+          .tarjeta.color-secundario.p-3(x="30%" y="13%" numero="+")
+            .h5.mb-2 Diseño Curricular
             p Genera PDF diseño titulada complementaria NO a la medida.
 
-          div(x="30%" y="36%" tooltip="Planeación de la Formación" numero="+")
-            h5 Planeación de la Formación
-            p COMPLEMENTARIA VIRTUAL: 
-            p Administrar fichas virtuales centro.
+          .tarjeta.color-secundario.p-3(x="30%" y="35%" numero="+")
+            .h5.mb-2 Planeación de la Formación
+            p.mb-1.text-bold Complementaria virtual: 
+            p Administrar fichas virtuales centro. 
 
-          div(x="30%" y="60%" tooltip="Gestión de Ambientes" numero="+")
-            h5 Gestión de Ambientes
-            li Consultar fichas instructor.
-            li Diagramar horario instructor.
-            li Reporte de instructores por ficha.
-            li Solicitar eventos.
+          .tarjeta.color-secundario.p-3(x="30%" y="58%" numero="+")
+            .h5.mb-2 Gestión de Ambientes
+            li.li Consultar fichas instructor. 
+            li.li Diagramar horario instructor.
+            li.li Reporte de instructores por ficha.
+            li.li Solicitar eventos.
 
-          div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
-            h5 Gestión de tiempos
-            p GESTIONAR TIEMPOS DEL INSTRUCTOR:
-            li Consultar inasistencia del aprendiz.
-            li Consultar registro de tiempo.
-            li Gestionar actividades adicionales del instructor.
-            li Registrar actividad adicional del instructor.
-            li Registrar inasistencia del aprendiz.
+          .tarjeta.color-secundario.p-3(x="34%" y="84%" numero="+")
+            .h5.mb-2 Gestión de tiempos
+            p.text-bold Gestionar tiempos del instructor:
+            li.li Consultar inasistencia del aprendiz.
+            li.li Consultar registro de tiempo.
+            li.li Gestionar actividades adicionales del instructor.
+            li.li Registrar actividad adicional del instructor.
+            li.li Registrar inasistencia del aprendiz.
 
-          //- div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
-          //-   h5 Gestión de tiempos
-          //-   p GESTIONAR TIEMPOS DEL INSTRUCTOR:
-          //-   li Consultar inasistencia del aprendiz.
-          //-   li Consultar Registro de Tiempo.
-          //-   li Gestionar Actividades Adicionales del Instructor.
-          //-   li Registrar Actividad Adicional del Instructor.
-          //-   li Registrar Inasistencia del Aprendiz.
+          .tarjeta.color-secundario.p-3(x="65%" y="91%" numero="+")
+            .h5.mb-2 LMS
+            li.li Consultar victorias de capacitación.
 
-          div(x="65%" y="91%" tooltip="LMS" numero="+")
-            h5 LMS
-            li Consultar victorias de capacitación.
+          .tarjeta.color-secundario.p-3(x="92%" y="84%" numero="+")
+            .h5.mb-2 Matrícula
+            p.text-bold Eventos de divulgación tecnológica:
+            li.li Generar listado de matriculados.
 
-          div(x="92%" y="84%" tooltip="Matrícula" numero="+")
-            h5 Matrícula
-            p EVENTOS DE DIVULGACIÓN TECNOLÓGICA:
-            li Generar listado de matriculados.
+          .tarjeta.color-secundario.p-3(x="69%" y="60%" numero="+")
+            h5.mb-3 Ejecución de la Formación
+            p.text-bold Administración ruta de aprendizaje:
+            li.li Consulta ruta de aprendizaje.
+            li.li Generar excel de planeación pedagógico.
+            li.li Generar PDF de proyecto formativo.
+            li.li Gestionar la ruta de aprendizaje.
+            li.li Reportes.
+            li.li.mb-3 Solicitud de segunda evaluación.
+            p.text-bold Complementaria virtual:
+            li.li Consultar novedad cancelamiento.
+            li.li Crear novedad cancelamiento.
+            li.li.mb-3 Enviar correo electrónico a aprendices.
+            p.text-bold Eventos de divulgación tecnológica
+            li.li Gestionar asistencias.
 
-          div(x="69%" y="37%" tooltip="Reportes" numero="+")
-            h5.mb-4 Reportes
-            p REPORTES VIRTUAL:
-            li.mb-4 Trazabilidad de estados Aprendices.
-            p REPORTES VIRTUAL POR CENTRO:
-            li Consultar fichas instructor.
-            li Estados de aprendices.
-            li.mb-4 Reporte de inscritos.
-            p REPORTES POR CENTRO DE FORMACIÓN:
-            li Administración educativa centro.
-            li Diseño curricular centro.
-            li Planeación por centro.
+          .tarjeta.color-secundario.p-3(x="69%" y="37%" numero="+")
+            .h5.mb-3 Reportes
+            p.text-bold Reportes virtuales:
+            li.li.mb-3 Trazabilidad de estados Aprendices.
+            p.text-bold Reportes virtuales por centro:
+            li.li Consultar fichas instructor.
+            li.li Estados de aprendices.
+            li.li.mb-3 Reporte de inscritos.
+            p.text-bold Reportes por centro de formación:
+            li.li Administración educativa centro.
+            li.li Diseño curricular centro.
+            li.li Planeación por centro. 
 
-          div(x="69%" y="60%" tooltip="Ejecución de la Formación" numero="+")
-            h5.mb-4 Ejecución de la Formación
-            p ADMINISTRACIÓN RUTA DE APRENDIZAJE:
-            li Consulta ruta de aprendizaje.
-            li Generar excel de planeación pedagógico.
-            li Generar PDF de proyecto formativo.
-            li Gestionar la ruta de aprendizaje.
-            li Reportes.
-            li.mb-4 Solicitud de segunda evaluación.
-            p COMPLEMENTARIA VIRTUAL:
-            li Consultar novedad cancelamiento.
-            li Crear novedad cancelamiento.
-            li.mb-4 Enviar correo electrónico a aprendices.
-            p EVENTOS DE DIVULGACIÓN TECNOLÓGICA
-            li Gestionar asistencias.
+          .tarjeta.color-secundario.p-3(x="69%" y="14%" numero="+")
+            h5.mb-2 SGS
+            p.text-bold Gestionar SGS:
+            li.li Consultar proyectos de aprendizaje.
+            li.li Consultar ruta de aprendizaje.
 
-          div(x="69%" y="14%" tooltip="SGS" numero="+")
-            h5 SGS
-            p GESTIONAR SGS:
-            li Consultar proyectos de aprendizaje.
-            li Consultar ruta de aprendizaje.
 
-    .col.movil
-      .row.justify-content-center
-        .col-lg-6
-          a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_ Mapa rol instructor.pdf')" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-pdf.svg")
-            .anexo__texto
-              p Anexo. Mapa rol instructor.
+    //- .row.justify-content-center(data-aos="flip-up")
+    //-   .col-lg-10.col-12.desktop
+    //-     ImagenInfograficaB.color-acento-botones.mb-5
+    //-       template(v-slot:imagen)
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema2/img12.svg', alt='Imagen decorativa')
+
+    //-       div(x="30%" y="14%" tooltip="Diseño Curricular" numero="+")
+    //-         h5 Diseño Curricular
+    //-         p Genera PDF diseño titulada complementaria NO a la medida.
+
+    //-       div(x="30%" y="36%" tooltip="Planeación de la Formación" numero="+")
+    //-         h5 Planeación de la Formación
+    //-         p COMPLEMENTARIA VIRTUAL: 
+    //-         p Administrar fichas virtuales centro.
+
+    //-       div(x="30%" y="60%" tooltip="Gestión de Ambientes" numero="+")
+    //-         h5 Gestión de Ambientes
+    //-         li Consultar fichas instructor.
+    //-         li Diagramar horario instructor.
+    //-         li Reporte de instructores por ficha.
+    //-         li Solicitar eventos.
+
+    //-       div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
+    //-         h5 Gestión de tiempos
+    //-         p GESTIONAR TIEMPOS DEL INSTRUCTOR:
+    //-         li Consultar inasistencia del aprendiz.
+    //-         li Consultar registro de tiempo.
+    //-         li Gestionar actividades adicionales del instructor.
+    //-         li Registrar actividad adicional del instructor.
+    //-         li Registrar inasistencia del aprendiz.
+
+    //-       //- div(x="34%" y="84%" tooltip="Gestión de tiempos" numero="+")
+    //-       //-   h5 Gestión de tiempos
+    //-       //-   p GESTIONAR TIEMPOS DEL INSTRUCTOR:
+    //-       //-   li Consultar inasistencia del aprendiz.
+    //-       //-   li Consultar Registro de Tiempo.
+    //-       //-   li Gestionar Actividades Adicionales del Instructor.
+    //-       //-   li Registrar Actividad Adicional del Instructor.
+    //-       //-   li Registrar Inasistencia del Aprendiz.
+
+    //-       div(x="65%" y="91%" tooltip="LMS" numero="+")
+    //-         h5 LMS
+    //-         li Consultar victorias de capacitación.
+
+    //-       div(x="92%" y="84%" tooltip="Matrícula" numero="+")
+    //-         h5 Matrícula
+    //-         p EVENTOS DE DIVULGACIÓN TECNOLÓGICA:
+    //-         li Generar listado de matriculados.
+
+    //-       div(x="69%" y="37%" tooltip="Reportes" numero="+")
+    //-         h5.mb-4 Reportes
+    //-         p REPORTES VIRTUAL:
+    //-         li.mb-4 Trazabilidad de estados Aprendices.
+    //-         p REPORTES VIRTUAL POR CENTRO:
+    //-         li Consultar fichas instructor.
+    //-         li Estados de aprendices.
+    //-         li.mb-4 Reporte de inscritos.
+    //-         p REPORTES POR CENTRO DE FORMACIÓN:
+    //-         li Administración educativa centro.
+    //-         li Diseño curricular centro.
+    //-         li Planeación por centro.
+
+    //-       div(x="69%" y="60%" tooltip="Ejecución de la Formación" numero="+")
+    //-         h5.mb-4 Ejecución de la Formación
+    //-         p ADMINISTRACIÓN RUTA DE APRENDIZAJE:
+    //-         li Consulta ruta de aprendizaje.
+    //-         li Generar excel de planeación pedagógico.
+    //-         li Generar PDF de proyecto formativo.
+    //-         li Gestionar la ruta de aprendizaje.
+    //-         li Reportes.
+    //-         li.mb-4 Solicitud de segunda evaluación.
+    //-         p COMPLEMENTARIA VIRTUAL:
+    //-         li Consultar novedad cancelamiento.
+    //-         li Crear novedad cancelamiento.
+    //-         li.mb-4 Enviar correo electrónico a aprendices.
+    //-         p EVENTOS DE DIVULGACIÓN TECNOLÓGICA
+    //-         li Gestionar asistencias.
+
+    //-       div(x="69%" y="14%" tooltip="SGS" numero="+")
+    //-         h5 SGS
+    //-         p GESTIONAR SGS:
+    //-         li Consultar proyectos de aprendizaje.
+    //-         li Consultar ruta de aprendizaje.
+
+    .row.justify-content-center
+      .col-sm-8.col-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema2/img12.1.svg', alt='Imagen decorativa')
+    .row.justify-content-center
+      .col-12.movil
+        .row.justify-content-center
+          .col-lg-6
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_ Mapa rol instructor.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p Anexo. Mapa rol instructor.
 
     p.mb-5(data-aos="fade-left") Dentro de este mapa del rol de instructor, las actividades que realiza el instructor virtual durante su proceso son: ejecución de la formación, gestión de ambientes y LMS.
 
