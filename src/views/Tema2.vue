@@ -142,7 +142,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img7.png', alt='Imagen decorativa')
           .col-lg-6.col-12.mb-3
-            .cajon.color-secundario.p-4.mb-4
+            .cajon.color-secundario.p-4.mb-0
               p El primer sistema de gestión a profundizar es SOFIA Plus, llamado así por ser la abreviación de <b>Sistema Optimizado para la Formación Integral del Aprendizaje</b>. Este sistema de información del SENA permite llevar el control de lo administrativo, del proceso académico y, a su vez, gestionar todos los recursos que se involucran en la formación profesional integral de todos sus usuarios. Además, este sistema posibilita la gestión de los procesos educativos que están presentes en cada uno de los servicios de formación del SENA.
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
@@ -355,10 +355,10 @@
 
     p(data-aos="fade-left") El SENA cuenta con un segundo sistema de gestión para el aprendizaje que se basa en un LMS, una abreviatura que en inglés significa <i>«Learning Management System»</i>. Traducido al español, un sistema de administración de aprendizaje. En la formación virtual, la plataforma LMS es la que nos permite crear el aula virtual o lo que comúnmente llamamos Ambiente Virtual de Aprendizaje, en el cual se realiza toda la mediación del proceso formativo entre los instructores y aprendices SENA. El equipo integrante del LMS SENA cuenta con <b>administradores de sistema, coordinadores académicos, equipo de producción, instructores y los aprendices</b>; cada uno de ellos juega un papel importante para el desarrollo del proceso formativo.
 
-    .row.justify-content-center(data-aos="flip-up")
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
-        .cajon.cajon2.color-primario.p-4.mb-4
-          p Para que un LMS sea exitoso, el equipo de trabajo responsable debe interactuar constantemente de manera coordinada. los roles involucrados son:
+        .cajon.cajon2.color-primario.p-4.mb-0
+          p Para que un LMS sea exitoso, el equipo de trabajo responsable debe interactuar constantemente de manera coordinada. Los roles involucrados son:
 
     .row.justify-content-center.mb-5
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
