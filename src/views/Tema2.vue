@@ -142,8 +142,8 @@
             figure
               img(src='@/assets/curso/temas/tema2/img7.png', alt='Imagen decorativa')
           .col-lg-6.col-12.mb-3
-            .cajon.color-secundario.p-4.mb-0
-              p El primer sistema de gestión a profundizar es SOFIA Plus, llamado así por ser la abreviación de <b>Sistema Optimizado para la Formación Integral del Aprendizaje</b>. Este sistema de información del SENA permite llevar el control de lo administrativo, del proceso académico y, a su vez, gestionar todos los recursos que se involucran en la formación profesional integral de todos sus usuarios. Además, este sistema posibilita la gestión de los procesos educativos que están presentes en cada uno de los servicios de formación del SENA.
+            .cajon.color-secundario.p-4.mb-4
+              p.mb-0 El primer sistema de gestión a profundizar es SOFIA Plus, llamado así por ser la abreviación de <b>Sistema Optimizado para la Formación Integral del Aprendizaje</b>. Este sistema de información del SENA permite llevar el control de lo administrativo, del proceso académico y, a su vez, gestionar todos los recursos que se involucran en la formación profesional integral de todos sus usuarios. Además, este sistema posibilita la gestión de los procesos educativos que están presentes en cada uno de los servicios de formación del SENA.
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 Rol en SOFIA Plus
@@ -440,8 +440,8 @@
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
-        .cajon.cajon2.color-primario.p-4.mb-0
-          p Para que un LMS sea exitoso, el equipo de trabajo responsable debe interactuar constantemente de manera coordinada. Los roles involucrados son:
+        .cajon.cajon2.color-primario.p-4.mb-4
+          p.mb-0 Para que un LMS sea exitoso, el equipo de trabajo responsable debe interactuar constantemente de manera coordinada. Los roles involucrados son:
 
     .row.justify-content-center.mb-5
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")

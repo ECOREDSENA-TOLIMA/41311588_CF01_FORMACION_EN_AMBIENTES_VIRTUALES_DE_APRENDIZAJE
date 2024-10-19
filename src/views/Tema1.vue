@@ -11,7 +11,7 @@
       figure
         img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
 
-    p.mb-5(data-aos="fade-left") Abarca diferentes procesos formativos institucionales, incluyendo de manera directa los desarrollados en el SENA.  busca ofrecer una educación integral y accesible, respondiendo a las necesidades del sector productivo y social a través del desarrollo de competencias. El instructor es clave en este proceso, tanto en modalidades presenciales como virtuales. 
+    p.mb-5(data-aos="fade-left") Abarca diferentes procesos formativos institucionales, incluyendo de manera directa los desarrollados en el SENA,  busca ofrecer una educación integral y accesible, respondiendo a las necesidades del sector productivo y social a través del desarrollo de competencias. El instructor es clave en este proceso, tanto en modalidades presenciales como virtuales. 
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -43,9 +43,9 @@
               img(src='@/assets/curso/temas/tema1/img3.png', alt='Imagen decorativa')
           .col-lg-7
             p Son las competencias relacionadas con el "saber-ser" o "saber actuar" estas son:
-            li Curiosidad
-            li Creatividad
-            li Amabilidad
+            li Curiosidad.
+            li Creatividad.
+            li Amabilidad.
       .py-4.py-md-5.p-4(titulo="Comunicativas" :icono="require('@/assets/curso/temas/tema1/img4.svg')")
         .row.justify-content-center
           .col-lg-5.col-10.mb-lg-0.mb-4
@@ -111,7 +111,7 @@
           figure.movil
             img(src='@/assets/curso/temas/tema1/img13.svg', alt='La figura 1,  relaciona los momentos en los que tanto el instructor, como el aprendiz participan en la formación. Encontrando que antes de iniciar el curso el actor involucrado es el instructor, mientras que al inicio del curso, durante y al finalizarlo, lo hace el instructor, junto con el aprendiz.')
 
-    p.mb-5(data-aos="fade-left") Para garantizar la calidad en el proceso de la formación virtual, el instructor cuenta con un documento institucional denominado “Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA-” que lo orienta paso a paso en el cumplimiento de las acciones durante el proceso de ejecución de la formación. Esta guía o documento equivalente se encuentra en siguiente enlace web:
+    p.mb-5(data-aos="fade-left") Para garantizar la calidad en el proceso de la formación virtual, el instructor cuenta con un documento institucional denominado “Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA-” que lo orienta paso a paso en el cumplimiento de las acciones durante el proceso de ejecución de la formación. Para acceder a este documento desde CompromISO, debe iniciar sesión con su usuario y contraseña. Si no tiene activado el acceso, solicítelo a través de su Centro de Formación.
 
     .tarjeta.tarjeta1.p-3(data-aos="flip-up")
       .row.justify-content-around.align-items-center
