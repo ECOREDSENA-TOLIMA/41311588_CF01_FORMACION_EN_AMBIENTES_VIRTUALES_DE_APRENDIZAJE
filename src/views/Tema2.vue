@@ -146,7 +146,7 @@
               p.mb-0 El primer sistema de gestión a profundizar es SOFIA Plus, llamado así por ser la abreviación de <b>Sistema Optimizado para la Formación Integral del Aprendizaje</b>. Este sistema de información del SENA permite llevar el control de lo administrativo, del proceso académico y, a su vez, gestionar todos los recursos que se involucran en la formación profesional integral de todos sus usuarios. Además, este sistema posibilita la gestión de los procesos educativos que están presentes en cada uno de los servicios de formación del SENA.
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Rol en SOFIA Plus
+      h4.mb-0 Rol en SOFIA Plus
 
     p.mb-3(data-aos="fade-left") Se denomina “Rol” en SOFIA Plus a un grupo de paquetes funcionales, independiente de su jerarquía en el sistema, es decir, que todo integrante de la comunidad educativa SENA tiene asignado su rol y, en consecuencia, sus respectivos paquetes funcionales en el aplicativo. A su vez, cada paquete funcional tiene asociada la gestión de las actividades involucradas en los diferentes procesos y servicios de la formación profesional integral del SENA.
     p.mb-5(data-aos="fade-left") A continuación, algunos roles principales:
@@ -175,7 +175,7 @@
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Mapa rol instructor
+      h4.mb-0 Mapa rol instructor
 
     p.mb-5(data-aos="fade-left") A continuación, podrá ver el mapa de actividades del rol de instructor en SOFIA Plus, las cuales necesitará dependiendo de la modalidad y momento de la formación que esté desarrollando.
 
@@ -343,7 +343,7 @@
     //-         li Consultar ruta de aprendizaje.
 
     .row.justify-content-center
-      .col-sm-8.col-12
+      .col-md-6.col-sm-8.col-8
         figure.movil
           img(src='@/assets/curso/temas/tema2/img12.1.svg', alt='Imagen decorativa')
     .row.justify-content-center
@@ -360,11 +360,99 @@
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Proceso de instructor en SOFIA Plus
+      h4.mb-0 Proceso de instructor en SOFIA Plus
 
-    p.mb-5(data-aos="fade-left") A través del siguiente recurso podrá entender el ciclo de ejecución de una ficha. 
+    p.mb-5(data-aos="fade-left") A continuación, se relacionan los diferentes procedimientos que el instructor debe llevar a cabo al momento de ejecutar acciones en SOFIA Plus. Hay que tener en cuenta que en cada pasó habrá un documento que debe ser consultado para complementar el proceso del que se está hablando:
 
-    .tarjeta.tarjeta--BG06.px-4.px-md-5.pt-4.mb-5.p-4(data-aos="flip-up")
+    .row.justify-content-center.align-items-center-mb-5(data-aos="flip-up")
+      .col-lg-4.d-lg-flex.d-none
+        figure
+          img(src='@/assets/curso/temas/tema2/img21.png', alt='Imagen decorativa')
+      .col-lg-8.col-md-10.col-12.mb-4.mb-lg-0
+        LineaTiempoD.color-acento-botones.especial
+          .row.justify-content-center(numero="Paso 1" titulo="Identificar cursos asignados")
+            .col-12.mb-4.mb-lg-0
+              p El instructor recibirá un mensaje a través del correo electrónico registrado en SOFIA Plus, donde se le informa el nombre del curso virtual, número de ficha, la fecha de inicio y finalización.
+            .col-lg-8.col-md-9.col-12.mb-4.mb-lg-0
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Paso_1_Identificar cursos asignados.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p Anexo. Paso 1_Identificar cursos asignados
+
+          .row.justify-content-center(numero="Paso 2" titulo="Cambiar curso a ejecución")
+            .col-12.mb-4.mb-lg-0
+              p Para que los participantes o aprendices del curso puedan iniciar la formación, el instructor SENA deberá cambiar en la ficha el estado de los aprendices de "En tránsito" a "Formación", el instructor deberá asociar a los aprendices a la ruta de aprendizaje establecida para la ficha virtual.
+            .col-lg-8.col-md-9.col-12.mb-4.mb-lg-0
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Paso_2_Cambiar cursos a ejecución.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p Anexo. Paso 2_Cambiar cursos a ejecución
+
+          .row.justify-content-center(numero="Paso 3" titulo="Verificar aprendices en formación")
+            .col-12.mb-4.mb-lg-0
+              p El instructor debe verificar que todos los aprendices del curso hayan cambiado de estado en el sistema, de "En espera" a "Formación", una vez se haya asociado a la ruta de aprendizaje. Además, debe verificar que el número de participantes en formación coincida con el número de matriculados.
+            .col-lg-8.col-md-9.col-12.mb-4.mb-lg-0
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Paso_3_Verificar aprendices en formación.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p Anexo. Paso 3_Verificar aprendices en formación
+
+          .row.justify-content-center(numero="Paso 4" titulo="Correo inicial a los aprendices")
+            .col-12.mb-4.mb-lg-0
+              p El instructor debe informar a través de SOFIA Plus, mediante un correo inicial, el nombre del programa, número de ficha, fecha de inicio, fecha de finalización y nombre del instructor. Además, debe especificar que el aprendiz tendrá acceso al curso después de 24 horas a través de SOFIA Plus en el paquete funcional del LMS.
+            .col-lg-8.col-md-9.col-12.mb-4.mb-lg-0
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Paso_4_Correo inicial a los aprendices.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p Anexo. Paso 4_Correo inicial a los aprendices
+
+          .row.justify-content-center(numero="Paso 5" titulo="Ejecutar la formación virtual")
+            .col-12.mb-4.mb-lg-0
+              p Una vez los cursos se encuentren en estado de ejecución, el instructor debe realizar todo el proceso de desarrollo de la formación virtual, de acuerdo con los lineamientos institucionales vigentes a través del LMS correspondiente.
+            .col-lg-8.col-md-9.col-12.mb-4.mb-lg-0
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Paso_5_Ejecutar la formación virtual.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p Anexo. Paso 5_Ejecutar la formación virtual
+
+          .row.justify-content-center(numero="Paso 6" titulo="Evaluar ruta de aprendizaje")
+            .col-12.mb-4.mb-lg-0
+              p Una vez finalice el proceso formativo, el instructor debe realizar el registro de los juicios de evaluación de cada uno de los resultados de aprendizaje, a través del LMS o directamente desde SOFIA Plus, para cada uno de los aprendices del curso.
+            .col-lg-8.col-md-9.col-12.mb-4.mb-lg-0
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Paso_6_Evaluar ruta de aprendizaje.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p Anexo. Paso 6_Evaluar ruta de aprendizaje
+
+          .row.justify-content-center(numero="Paso 7" titulo="Registrar novedades")
+            .col-12.mb-4.mb-lg-0
+              p Una vez aplicado los juicios de evaluación de todos los aprendices del curso y sus respectivos resultados de aprendizaje, el instructor debe establecer las novedades de la formación de acuerdo con los lineamientos institucionales.
+            .col-lg-8.col-md-9.col-12.mb-4.mb-lg-0
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Paso_7_Registrar_Novedades.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p Anexo. Paso 7_Registrar_Novedades
+
+          .row.justify-content-center(numero="Paso 8" titulo="Reportes de recurso")
+            .col-12.mb-4.mb-lg-0
+              p El instructor debe descargar del reporte de juicios de evaluación, obtenido de SOFIA Plus, las estadísticas del curso y copia del libro de calificaciones obtenidas desde el LMS, de acuerdo con los lineamientos institucionales vigentes.
+            .col-lg-8.col-md-9.col-12.mb-4.mb-lg-0
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Paso_8_Reporte_del_Curso.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p Anexo. Paso 8_Reporte_del_Curso
+      
+        
+
+    //.tarjeta.tarjeta--BG06.px-4.px-md-5.pt-4.mb-5.p-4(data-aos="flip-up")
       .tarjeta.tarjeta--blanca.p-4
         PasosB.color-acento-botones.p-4
           .row.justify-content-center(titulo="Paso 1")

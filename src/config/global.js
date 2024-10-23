@@ -307,7 +307,7 @@ export default {
         },
         {
           nombre: 'Sebastian Trujillo Afanador',
-          cargo: 'Desarrollador full stack',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

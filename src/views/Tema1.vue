@@ -31,7 +31,7 @@
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Competencias del instructor virtual- tutor virtual
+      h4.mb-0 Competencias del instructor virtual- tutor virtual
 
     p.mb-5(data-aos="fade-left") El responsable de la ejecución de la formación virtual en el SENA es el instructor virtual, el cual debe reunir las siguientes competencias:
 
