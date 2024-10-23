@@ -204,13 +204,13 @@ export default {
     {
       termino: 'SOFIA Plus',
       significado:
-        'la sigla significa Sistema Optimizado para la Formación y el Aprendizaje Activo, el aplicativo SOFIA Plus, opera como la principal herramienta para facilitar la gestión de los nuevos procesos formativos en el SENA. La operación del sistema requiere la interacción de tres componentes importantes: el entendimiento y adopción de los nuevos procesos de gestión del aprendizaje, la prueba y uso del aplicativo diseñado para la gestión de estos nuevos procesos, y la migración de información útil del actual aplicativo de gestión académica de centros hacia el nuevo aplicativo que soportará todos los procesos.',
+        'la sigla significa Sistema Optimizado para la Formación y el Aprendizaje, el aplicativo SOFIA Plus, opera como la principal herramienta para facilitar la gestión de los nuevos procesos formativos en el SENA. La operación del sistema requiere la interacción de tres componentes importantes: el entendimiento y adopción de los nuevos procesos de gestión del aprendizaje, la prueba y uso del aplicativo diseñado para la gestión de estos nuevos procesos, y la migración de información útil del actual aplicativo de gestión académica de centros hacia el nuevo aplicativo que soportará todos los procesos.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Ángel, W. I. (2017). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Servicio Nacional de Aprendizaje SENA.',
+        'Ángel, W. I. (2020). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Servicio Nacional de Aprendizaje SENA.',
       link: '',
     },
     {

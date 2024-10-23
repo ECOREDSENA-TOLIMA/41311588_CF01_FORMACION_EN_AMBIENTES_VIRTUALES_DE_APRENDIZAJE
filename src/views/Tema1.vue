@@ -111,21 +111,22 @@
           figure.movil
             img(src='@/assets/curso/temas/tema1/img13.svg', alt='La figura 1,  relaciona los momentos en los que tanto el instructor, como el aprendiz participan en la formación. Encontrando que antes de iniciar el curso el actor involucrado es el instructor, mientras que al inicio del curso, durante y al finalizarlo, lo hace el instructor, junto con el aprendiz.')
 
-    p.mb-5(data-aos="fade-left") Para garantizar la calidad en el proceso de la formación virtual, el instructor cuenta con un documento institucional denominado “Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA-” que lo orienta paso a paso en el cumplimiento de las acciones durante el proceso de ejecución de la formación. Para acceder a este documento desde CompromISO, debe iniciar sesión con su usuario y contraseña. Si no tiene activado el acceso, solicítelo a través de su Centro de Formación.
+    .tarjeta.color3.p-4(data-aos="flip-up")
+      p.mb-3(data-aos="fade-left") Para garantizar la calidad en el proceso de la formación virtual, el instructor cuenta con un documento institucional denominado “Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA-” que lo orienta paso a paso en el cumplimiento de las acciones durante el proceso de ejecución de la formación. Para acceder a este documento desde CompromISO, debe iniciar sesión con su usuario y contraseña. Si no tiene activado el acceso, solicítelo a través de su Centro de Formación.
 
-    .tarjeta.tarjeta1.p-3(data-aos="flip-up")
-      .row.justify-content-around.align-items-center
-        .col-lg-1.col-3.p-4
-          img(src="@/assets/curso/temas/tema1/img14.svg").img50
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h5.mb-1 Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA
-              p.mb-0 Documento institucional
-            .col-sm-auto
-              a.boton.color-acento-botones(href="https://compromiso.sena.edu.co/" target="_blank")
-                span Enlace web
-                i.fas.fa-link
+    //- .tarjeta.tarjeta1.p-3(data-aos="flip-up")
+    //-   .row.justify-content-around.align-items-center
+    //-     .col-lg-1.col-3.p-4
+    //-       img(src="@/assets/curso/temas/tema1/img14.svg").img50
+    //-     .col
+    //-       .row.justify-content-between.align-items-center
+    //-         .col.mb-3.mb-sm-0
+    //-           h5.mb-1 Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA
+    //-           p.mb-0 Documento institucional
+    //-         .col-sm-auto
+    //-           a.boton.color-acento-botones(href="https://compromiso.sena.edu.co/" target="_blank")
+    //-             span Enlace web
+    //-             i.fas.fa-link
           
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")

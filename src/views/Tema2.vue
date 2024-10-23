@@ -191,19 +191,19 @@
             .h5.mb-2 Diseño Curricular
             p Genera PDF diseño titulada complementaria NO a la medida.
 
-          .tarjeta.color-secundario.p-3(x="30%" y="35%" numero="+")
+          .tarjeta.color-secundario.p-3(x="28%" y="35%" numero="+")
             .h5.mb-2 Planeación de la Formación
             p.mb-1.text-bold Complementaria virtual: 
             p Administrar fichas virtuales centro. 
 
-          .tarjeta.color-secundario.p-3(x="30%" y="58%" numero="+")
+          .tarjeta.color-secundario.p-3(x="28%" y="56%" numero="+")
             .h5.mb-2 Gestión de Ambientes
             li.li Consultar fichas instructor. 
             li.li Diagramar horario instructor.
             li.li Reporte de instructores por ficha.
             li.li Solicitar eventos.
 
-          .tarjeta.color-secundario.p-3(x="34%" y="84%" numero="+")
+          .tarjeta.color-secundario.p-3(x="30%" y="78%" numero="+")
             .h5.mb-2 Gestión de tiempos
             p.text-bold Gestionar tiempos del instructor:
             li.li Consultar inasistencia del aprendiz.
@@ -212,16 +212,16 @@
             li.li Registrar actividad adicional del instructor.
             li.li Registrar inasistencia del aprendiz.
 
-          .tarjeta.color-secundario.p-3(x="65%" y="91%" numero="+")
+          .tarjeta.color-secundario.p-3(x="62%" y="91%" numero="+")
             .h5.mb-2 LMS
             li.li Consultar victorias de capacitación.
 
-          .tarjeta.color-secundario.p-3(x="92%" y="84%" numero="+")
+          .tarjeta.color-secundario.p-3(x="70%" y="79%" numero="+")
             .h5.mb-2 Matrícula
             p.text-bold Eventos de divulgación tecnológica:
             li.li Generar listado de matriculados.
 
-          .tarjeta.color-secundario.p-3(x="69%" y="60%" numero="+")
+          .tarjeta.color-secundario.p-3(x="72%" y="58%" numero="+")
             h5.mb-3 Ejecución de la Formación
             p.text-bold Administración ruta de aprendizaje:
             li.li Consulta ruta de aprendizaje.
@@ -237,7 +237,7 @@
             p.text-bold Eventos de divulgación tecnológica
             li.li Gestionar asistencias.
 
-          .tarjeta.color-secundario.p-3(x="69%" y="37%" numero="+")
+          .tarjeta.color-secundario.p-3(x="72%" y="35%" numero="+")
             .h5.mb-3 Reportes
             p.text-bold Reportes virtuales:
             li.li.mb-3 Trazabilidad de estados Aprendices.
@@ -250,7 +250,7 @@
             li.li Diseño curricular centro.
             li.li Planeación por centro. 
 
-          .tarjeta.color-secundario.p-3(x="69%" y="14%" numero="+")
+          .tarjeta.color-secundario.p-3(x="70%" y="12%" numero="+")
             h5.mb-2 SGS
             p.text-bold Gestionar SGS:
             li.li Consultar proyectos de aprendizaje.
