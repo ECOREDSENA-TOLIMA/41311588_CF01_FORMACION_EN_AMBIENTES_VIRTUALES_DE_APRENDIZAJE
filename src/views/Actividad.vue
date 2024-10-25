@@ -173,7 +173,7 @@ export default {
         {
           id: 8,
           texto:
-            '<b>No es un sistema de información que utilizado en el desarrollo de la formación del SENA:</b>',
+            '<b>No es un sistema de información utilizado en el desarrollo de la formación del SENA:</b>',
           imagen: require('@/assets/componentes/pregunta_4.png'),
           barajarRespuestas: false,
           opciones: [

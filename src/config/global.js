@@ -128,14 +128,14 @@ export default {
       tema: '1. Gestión de la formación profesional',
       referencia: 'Portal SENA. (s.f.). Glosario.',
       tipo: 'Página web',
-      link:
-        'https://www.sena.edu.co/es-co/formacion/Paginas/Estudie-en-el-SENA.aspx',
+      link: 'https://www.sena.edu.co/es-co/ciudadano/Paginas/glosario.aspx',
     },
     {
       tema: '1. Gestión de la formación profesional',
       referencia: 'Portal SENA. (s.f.). ¿Quiere estudiar en el SENA?',
       tipo: 'Página web',
-      link: 'https://www.sena.edu.co/es-co/ciudadano/Paginas/glosario.aspx',
+      link:
+        'https://www.sena.edu.co/es-co/formacion/Paginas/Estudie-en-el-SENA.aspx',
     },
     {
       tema: '1.3.	Aplicativo CompromISO SENA',
@@ -268,7 +268,7 @@ export default {
         {
           nombre: 'Laura Ivonne Rusinque Gamboa',
           cargo: 'E-Pedagoga',
-          centro: 'Centro Agropecuario la Granja-Regional Tolima',
+          centro: 'Centro Agropecuario la Granja - Regional Tolima',
         },
         {
           nombre: 'Marisol Báez Solano	',

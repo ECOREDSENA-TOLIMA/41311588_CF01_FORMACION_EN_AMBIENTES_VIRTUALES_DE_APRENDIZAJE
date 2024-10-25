@@ -124,13 +124,13 @@
               | Producción de centros.
             li.mb-0 
               span.text-bold d. 
-              | Administración de sistema.
+              | Administración del sistema.
             li.mb-0
               span.text-bold e. 
               | Auditoría de calidad.
       
     .row.justify-content-center
-      p(data-aos="fade-left") El instructor o tutor SENA es el encargado de los procesos de formación. En el desarrollo de las acciones formativas deberá interactuar con dos sistemas de gestión académica, debido a que todas sus actividades administrativas y de ejecución de la formación se verán soportadas allí. Estos sistemas son: SOFIA Plus y el LMS.
+      p(data-aos="fade-left") El instructor o tutor SENA es el encargado de los procesos de formación. En el desarrollo de las acciones formativas, deberá interactuar con dos sistemas de gestión académica, debido a que todas sus actividades administrativas y de ejecución de la formación se verán soportadas allí. Estos sistemas son: SOFIA Plus y el LMS.
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 SOFIA Plus
@@ -177,7 +177,7 @@
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h4.mb-0 Mapa rol instructor
 
-    p.mb-5(data-aos="fade-left") A continuación, podrá ver el mapa de actividades del rol de instructor en SOFIA Plus, las cuales necesitará dependiendo de la modalidad y momento de la formación que esté desarrollando.
+    p.mb-5(data-aos="fade-left") A continuación, se encuentra el mapa de actividades del rol de instructor en SOFIA Plus, las cuales necesitará dependiendo de la modalidad y momento de la formación que esté desarrollando.
 
     .col-12.mb-5
       .titulo-sexto.color-acento-contenido
@@ -461,7 +461,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo. Paso 7_Registrar_Novedades
+                  p Anexo. Paso 7 Registrar Novedades
 
           .row.justify-content-center(numero="Paso 8" titulo="Reportes de recurso")
             .col-12.mb-4.mb-lg-0
@@ -471,7 +471,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo. Paso 8_Reporte_del_Curso
+                  p Anexo. Paso 8 Reporte del Curso
       
         
 

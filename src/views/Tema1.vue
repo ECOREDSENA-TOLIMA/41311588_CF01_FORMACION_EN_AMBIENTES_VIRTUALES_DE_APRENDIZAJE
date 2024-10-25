@@ -92,7 +92,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen decorativa')
           .col-lg-7
-            p Capacidad de poner en practica todos los pensamientos, conocimientos y habilidades. Estas son:
+            p Capacidad de poner en práctica todos los pensamientos, conocimientos y habilidades. Estas son:
             li Actuaciones constantes.
             li Pensamientos críticos.
             li Aprendizaje significativo.
@@ -112,7 +112,7 @@
             img(src='@/assets/curso/temas/tema1/img13.svg', alt='La figura 1,  relaciona los momentos en los que tanto el instructor, como el aprendiz participan en la formación. Encontrando que antes de iniciar el curso el actor involucrado es el instructor, mientras que al inicio del curso, durante y al finalizarlo, lo hace el instructor, junto con el aprendiz.')
 
     .tarjeta.color3.p-4(data-aos="flip-up")
-      p.mb-3(data-aos="fade-left") Para garantizar la calidad en el proceso de la formación virtual, el instructor cuenta con un documento institucional denominado “Guía de orientaciones para la formación en ambientes virtuales de aprendizaje –AVA-” que lo orienta paso a paso en el cumplimiento de las acciones durante el proceso de ejecución de la formación. Para acceder a este documento desde CompromISO, debe iniciar sesión con su usuario y contraseña. Si no tiene activado el acceso, solicítelo a través de su Centro de Formación.
+      p.mb-3(data-aos="fade-left") Para garantizar la calidad en el proceso de la formación virtual, el instructor cuenta con un documento institucional denominado “Guía de orientaciones para la formación en ambientes virtuales de aprendizaje AVA” que lo orienta paso a paso en el cumplimiento de las acciones durante el proceso de ejecución de la formación. Para acceder a este documento desde CompromISO, debe iniciar sesión con su usuario y contraseña. Si no tiene activado el acceso, solicítelo a través de su Centro de Formación.
 
     //- .tarjeta.tarjeta1.p-3(data-aos="flip-up")
     //-   .row.justify-content-around.align-items-center
