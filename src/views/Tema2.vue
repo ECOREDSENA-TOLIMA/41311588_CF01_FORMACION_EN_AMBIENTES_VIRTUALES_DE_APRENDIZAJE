@@ -184,7 +184,7 @@
         h5 Figura 2.
         span <i>Mapa de actividades del rol de instructor.</i>
       figure.desktop
-        img(src='@/assets/curso/temas/tema2/img22.svg', alt='PTE Text alt')
+        img(src='@/assets/curso/temas/tema2/img22.svg', alt='Imagen que relaciona las diferentes actividades que se llevan a cabo desde el rol del instructor en el aplicativo SOFIA Plus. Es importante tener en cuenta que dichas actividades se ejecutan, basadas en la modalidad del curso y el momento en que se está en la formación.')
 
     //-.row.justify-content-center.mb-5
       .tarjeta.color4.p-4.mb-3
