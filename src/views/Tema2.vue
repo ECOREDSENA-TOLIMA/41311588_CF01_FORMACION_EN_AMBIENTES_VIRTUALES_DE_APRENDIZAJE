@@ -179,8 +179,29 @@
 
     p.mb-5(data-aos="fade-left") A continuación, podrá ver el mapa de actividades del rol de instructor en SOFIA Plus, las cuales necesitará dependiendo de la modalidad y momento de la formación que esté desarrollando.
 
+    .col-12.mb-5
+      .titulo-sexto.color-acento-contenido
+        h5 Figura 2.
+        span <i>Mapa de actividades del rol de instructor.</i>
+      figure.desktop
+        img(src='@/assets/curso/temas/tema2/img22.svg', alt='PTE Text alt')
 
-    .row.justify-content-center(data-aos="flip-up")
+    //-.row.justify-content-center.mb-5
+      .tarjeta.color4.p-4.mb-3
+        .row.justify-content-center.align-items-center
+          .col-lg-3.col-md-6.col-sm-8
+            figure
+              img(src='@/assets/curso/temas/tema2/img12.1.svg', alt='Imagen decorativa')
+          .col-lg-6.col-md-6.col-sm-8
+            .titulo-segundo.color-acento-contenido
+              h4 Mapa de actividades del rol de instructor en SOFIA Plus
+            p A continuación, podrá descargar el mapa de actividades del rol de instructor en SOFIA Plus, las cuales necesitará dependiendo de la modalidad y momento de la formación que esté desarrollando.
+            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Anexo_ Mapa rol instructor.pdf')" target="_blank" type="application/pdf")
+              span Descargar
+              i.fas.fa-file-download
+
+
+    //-.row.justify-content-center(data-aos="flip-up")
       .col-lg-10.col-12.desktop
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
@@ -255,6 +276,8 @@
             p.text-bold Gestionar SGS:
             li.li Consultar proyectos de aprendizaje.
             li.li Consultar ruta de aprendizaje.
+
+    
 
 
     //- .row.justify-content-center(data-aos="flip-up")
@@ -571,14 +594,14 @@
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
+          h5 Figura 3.
           span <i>Procedimiento instructor - aprendiz.</i>
       .row.justify-content-center
         .col-lg-10.col-md-12.col-12
           figure.desktop
-            img(src='@/assets/curso/temas/tema2/img19.svg', alt='La figura 2, ejemplifica un proceso que se da en una formación virtual, entre el instructor y el aprendiz.')
+            img(src='@/assets/curso/temas/tema2/img19.svg', alt='La figura 3, ejemplifica un proceso que se da en una formación virtual, entre el instructor y el aprendiz.')
           figure.movil
-            img(src='@/assets/curso/temas/tema2/img20.svg', alt='La figura 2, ejemplifica un proceso que se da en una formación virtual, entre el instructor y el aprendiz.')
+            img(src='@/assets/curso/temas/tema2/img20.svg', alt='La figura 3, ejemplifica un proceso que se da en una formación virtual, entre el instructor y el aprendiz.')
 
     
     p.mb-5(data-aos="fade-left") El instructor SENA juega uno de los papeles más importantes dentro de esta comunidad. Es la persona que actúa durante todo el proceso formativo, interactuando constantemente con el aprendiz. El LMS es el canal de conexión y comunicación entre instructores y aprendices, mediante la publicación de actividades, recursos educativos digitales y herramientas de comunicación sincrónicas o asincrónicas que favorecen el trabajo colaborativo, siempre en cumplimiento de altos estándares de calidad y los lineamientos institucionales vigentes.
